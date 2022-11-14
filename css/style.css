@@ -1,12 +1,37 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 header nav{
     font-family: Helvetica, sans-serif;
 }
 
-/* header */
-.logo{
-    width: 100px;
+/* main */
+.jumbotron:not(#carousel-ps5){
+    padding-top: 10rem;
+}
+.jumbo-selector{
+    border: 1px solid black;;
+}
+.jumbo-selector .jumbo-item{
+    border:2px solid red;
+    border-radius: 15px;
+    padding: 3px;
+}
+.jumbo-selector .img{
+    border-radius: 10px;
+}
+
+.img{
+    height: 5rem;
+}
+
+#carousel-ps5 .imgBig{
+    height: 25rem; 
+}
+
+/* my-classes */
+.my-btn{
+    background-color: #cd3d0f;
 }
