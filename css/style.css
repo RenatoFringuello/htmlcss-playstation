@@ -8,8 +8,15 @@ header nav{
 }
 
 /* main */
+.jumbotron:first-of-type{
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center;
+    background-size: cover;
+    /* ticket: con il cover l'immagine viene zoommata troppo */
+} 
+
 .jumbotron:not(#carousel-ps5){
-    padding-top: 10rem;
+    padding-top: 15rem;
 }
 .jumbo-selector{
     border: 1px solid black;;
