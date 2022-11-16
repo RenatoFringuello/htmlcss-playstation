@@ -3,31 +3,85 @@ body{
     overflow-x: hidden;
 }
 
+/* header */
 header nav{
     font-family: Helvetica, sans-serif;
 }
+.top-header img{
+    width: 90%;
+    margin: 5px;
+}
 
 /* main */
-.jumbotron:first-of-type{
+    /* carousel */
+#carousel-main .jumbotron{
     background-image: url("../img/jumbo-bg.png");
-    background-position: center;
-    background-size: cover;
-    /* ticket: con il cover l'immagine viene zoommata troppo */
-} 
-
-.jumbotron:not(#carousel-ps5){
     padding-top: 15rem;
 }
-.jumbo-selector{
-    border: 1px solid black;;
+#carousel-main .jumbo-selector .jumbo-item{
+    border:3px solid;
+    color:#0000;
+    border-radius: 25px;
+    padding:3px;
 }
-.jumbo-selector .jumbo-item{
-    border:2px solid red;
-    border-radius: 15px;
-    padding: 3px;
+#carousel-main .jumbo-selector img{
+    border-radius: 20px;
+} 
+
+    /* carousel-ps5 */
+#carousel-ps5 .jumbo-selector .jumbo-item{
+    border-bottom:3px solid;
+    padding-bottom:1rem;
+    color:#0000;
 }
-.jumbo-selector .img{
-    border-radius: 10px;
+
+    /* carousel-new-game */
+#carousel-new-games{
+    background:#1f1f1f;
+}
+#carousel-new-games .jumbotron{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+#carousel-new-games .jumbo-item img{
+    border-radius: 20px;
+}
+
+    /* banner-explore-play-plus */
+#banner-explore-play-plus{
+    background:#bebcbb;
+}
+
+    /* banner-explore-play-now */
+#banner-explore-play-now{
+    background:#161c3b;
+}
+
+
+/* footer */
+footer{
+    background: #00439c;
+}
+footer .icon{
+    width: 20px;
+}
+footer .logo-ps{
+    width: 120px;
+}
+footer .logo-sie{
+    width: 150px;
+}
+footer ul{
+    list-style-type: none;
+}
+
+/* classes */
+.jumbotron{
+    background-position: center;
+    background-size: cover;
+}
+
+.jumbo-selector .jumbo-item.selected{
+    color:  #2184d4 !important;
 }
 
 .img{
@@ -39,6 +93,41 @@ header nav{
 }
 
 /* my-classes */
-.my-btn{
+.my-btn-red{
     background-color: #cd3d0f;
+}
+.my-btn-blue{
+    background-color: #2d64e6;
+}
+.my-btn-gray{
+    background-color: #d9dadc;
+    color:#2d64e6 !important;
+}
+.my-fs{
+    font-size: 1rem !important;
+}
+.my-fs-6{
+    font-size: 1.15rem !important;
+}
+.my-fs-7{
+    font-size: .9rem !important;
+}
+.my-text-bluePS{
+    color:#2184d4 !important;
+}
+.my-text-gray{
+    color:#838383;
+}
+
+.my-display{
+    /* display-3 */
+    font-size: calc(1.525rem + 3.3vw);
+}
+
+/* sm in poi 577 */
+@media screen and (min-width: 577px) {
+    .my-display{
+        /* display-5.5 */
+        font-size: calc(1.225rem + 2.1vw);
+    }
 }
