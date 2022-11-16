@@ -9,122 +9,115 @@
         <!-- bootstrap 5.2.2 -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
 
-        <!-- font awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-
         <!-- main style -->
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header class="ticky-top">
-            <div class="top-header bg-black p-2">
-                <div class="row justify-content-end">
-                    <div class="col-3 col-sm-2 col-lg-1 text-end">
-                        <img src="./img/sony_logo.svg" alt="SONY">
-                    </div>
+        <header class="sticky-top">
+            <div class="row justify-content-end bg-black p-1">
+                <div class="col-3 col-sm-2 col-lg-1 text-end">
+                    <img src="./img/sony_logo.svg" alt="SONY">
                 </div>
             </div>
-            <div class="bottom-header">
-                <nav class="navbar navbar-expand-lg bg-light fs-5">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
-                            <img src="./img/play_logo.svg" alt="PS Logo">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarScroll">
-                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
-                                <li class="nav-item dropdown   mx-lg-1">
-                                    <a class="nav-link text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Giochi</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown   mx-lg-1">
-                                    <a class="nav-link text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hardware</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown   mx-lg-1">
-                                    <a class="nav-link text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servizi</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown   mx-lg-1">
-                                    <a class="nav-link text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Novit&agrave;</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown   mx-lg-1">
-                                    <a class="nav-link text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fai Acquisti</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown   mx-lg-1">
-                                    <a class="nav-link text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Supporto</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <form class="d-flex" role="search">
-                                <ul class="navbar-nav my-2 my-lg-0">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">MyPlayStation</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><hr class="dropdown-divider"></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown mx-lg-2">
-                                        <button class="btn btn-dark rounded-5 fs-5 px-3 py-2" type="submit">Accedi</button>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <button class="btn btn-light rounded-circle" type="submit">
-                                            <img class="w-50" src="./img/lens.svg" alt="Search lens">
-                                        </button>
-                                    </li>
+            <nav class="navbar navbar-expand-lg bg-light p-0">
+                <div class="container-fluid px-lg-1">
+                    <a class="navbar-brand p-0" href="#">
+                        <img class="" src="./img/play_logo.svg" alt="PS Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav navbar-nav-scroll me-auto my-2 my-lg-0">
+                            <li class="nav-item dropdown mx-lg-1">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Giochi</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
-                            </form>
-                        </div>
+                            </li>
+                            <li class="nav-item dropdown mx-lg-1">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hardware</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown mx-lg-1">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servizi</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown mx-lg-1">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Novit&agrave;</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown mx-lg-1">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fai Acquisti</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown mx-lg-1">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Supporto</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav my-2 my-lg-0 align-items-center">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">My PlayStation</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown mx-lg-2">
+                                <button class="btn btn-dark rounded-5 px-3 py-2" type="submit">Accedi</button>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <button class="btn btn-light my-square rounded-circle p-0" type="submit">
+                                    <img class="w-50 m-0" src="./img/lens.svg" alt="Search lens">
+                                </button>
+                            </li>
+                        </ul>
                     </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
         </header>
         <main>
             <!-- main-carousel -->
             <section class="text-white" id="carousel-main">
                 <div class="container-fluid jumbotron px-2 px-sm-4 px-lg-5 pb-5">
-                    <div class="col-12 col-lg-4 px-md-2 px-lg-1 ">
-                        <img class="w-50 mb-4 mb-lg-5" src="./img/returnal-hero-banner-logo.png" alt="Returnal Logo">
-                        <h1 class="my-display mb-4 mb-lg-5">Rompi il cerchio</h1>
-                        <p class="my-fs-6 mb-4 mb-lg-5 pb-2">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
-                        <button class="my-btn-red btn btn-lg my-fs-6 rounded-5 text-white" type="button">Acquista ora</button>
+                    <div class="row">
+                        <div class="col-12 col-lg-4 px-md-2 px-lg-1 ">
+                            <img class="w-50 mb-4 mb-lg-5" src="./img/returnal-hero-banner-logo.png" alt="Returnal Logo">
+                            <h1 class="my-display mb-4 mb-lg-5">Rompi il cerchio</h1>
+                            <p class="my-fs-6 mb-4 mb-lg-5 pb-2">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
+                            <button class="my-btn-red btn btn-lg my-fs-6 rounded-5 text-white" type="button">Acquista ora</button>
+                        </div>
                     </div>
                 </div>
                 <div class="container-fluid jumbo-selector bg-light px-2 px-sm-4 px-lg-5 py-4">
@@ -222,11 +215,13 @@
             <!-- carousel newest game -->
             <section class="text-white" id="carousel-new-games">
                 <div class="container-fluid jumbotron px-2 px-sm-4 px-lg-5 py-5">
-                    <div class="col-12 col-lg-4 px-md-2 px-lg-1 ">
-                        <img class="w-50 mb-4" src="./img/it-takes-two-logo.png" alt="It Takes Two">
-                        <h1 class="my-display mb-4">Un&apos;avventura cooperativa selvaggia ti aspetta</h1>
-                        <p class="my-fs-6 mb-4 pb-2">Trova un amico e partite insieme per l&apos;avventura pi&ugrave; folle delle vostre vite in It Takes Two, un gioco d&apos;avventura cooperativa a piattaforme che stravolge il suo genere.</p>
-                        <button class="my-btn-red btn btn-lg my-fs-6 rounded-5 text-white" type="button">Acquista ora</button>
+                    <div class="row">
+                        <div class="col-12 col-lg-4 px-md-2 px-lg-1 ">
+                            <img class="w-50 mb-4" src="./img/it-takes-two-logo.png" alt="It Takes Two">
+                            <h1 class="my-display mb-4">Un&apos;avventura cooperativa selvaggia ti aspetta</h1>
+                            <p class="my-fs-6 mb-4 pb-2">Trova un amico e partite insieme per l&apos;avventura pi&ugrave; folle delle vostre vite in It Takes Two, un gioco d&apos;avventura cooperativa a piattaforme che stravolge il suo genere.</p>
+                            <button class="my-btn-red btn btn-lg my-fs-6 rounded-5 text-white" type="button">Acquista ora</button>
+                        </div>
                     </div>
                 </div>
                 <div class="container-fluid jumbo-selector px-2 px-sm-4 px-lg-5 py-4">

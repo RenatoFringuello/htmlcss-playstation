@@ -7,7 +7,7 @@ body{
 header nav{
     font-family: Helvetica, sans-serif;
 }
-.top-header img{
+header :first-child img{
     width: 90%;
     margin: 5px;
 }
@@ -118,7 +118,10 @@ footer ul{
 .my-text-gray{
     color:#838383;
 }
-
+.my-square{
+    width:  42px;
+    height: 42px;
+}
 .my-display{
     /* display-3 */
     font-size: calc(1.525rem + 3.3vw);
