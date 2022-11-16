@@ -79,6 +79,9 @@ footer ul{
     background-position: center;
     background-size: cover;
 }
+.jumbotron img{
+    width: 58%;
+}
 
 .jumbo-selector .jumbo-item.selected{
     color:  #2184d4 !important;
@@ -126,11 +129,27 @@ footer ul{
     /* display-3 */
     font-size: calc(1.525rem + 3.3vw);
 }
+.my-mb-4{
+    margin-bottom: 2rem;
+}
 
 /* sm in poi 577 */
 @media screen and (min-width: 577px) {
     .my-display{
-        /* display-5.5 */
-        font-size: calc(1.225rem + 2.1vw);
+        /* display-4 */
+        font-size: calc(1.475rem + 2.7vw);
+    }
+}
+/* md in poi 769 */
+@media screen and (min-width: 769px) {
+    .my-display{
+        /* display-5 */
+        font-size: calc(1.425rem + 2.1vw);
+    }
+}
+/* lg in poi 992 */
+@media screen and (min-width: 992px) {
+    .my-display{
+        font-size: 2.5rem;
     }
 }
